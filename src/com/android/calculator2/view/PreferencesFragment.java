@@ -141,7 +141,7 @@ public class PreferencesFragment extends PreferenceFragment {
             } catch (NameNotFoundException e) {
                 e.printStackTrace();
             }
-            about.setTitle(about.getTitle() + " v" + versionName);
+            about.setTitle(about.getTitle() + " v" + versionName + "-Dhollmen");
         }
     }
 
