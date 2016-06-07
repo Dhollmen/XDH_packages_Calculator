@@ -36,7 +36,7 @@ import com.xlythe.engine.theme.ThemedButton;
  */
 class ColorButton extends ThemedButton {
     static final int CLICK_FEEDBACK_INTERVAL = 10;
-    static final int CLICK_FEEDBACK_DURATION = 350;
+    static final int CLICK_FEEDBACK_DURATION = 250;
     int CLICK_FEEDBACK_COLOR;
     float mTextX;
     float mTextY;

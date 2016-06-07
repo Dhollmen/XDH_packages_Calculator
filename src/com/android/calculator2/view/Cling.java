@@ -35,8 +35,8 @@ import com.android.calculator2.Calculator;
 import com.android.calculator2.R;
 
 public class Cling extends FrameLayout {
-    public static final int SHOW_CLING_DURATION = 550;
-    public static final int DISMISS_CLING_DURATION = 250;
+    public static final int SHOW_CLING_DURATION = 250;
+    public static final int DISMISS_CLING_DURATION = 125;
 
     public static final String SIMPLE_CLING_DISMISSED_KEY = "cling.simple.dismissed";
     public static final String MATRIX_CLING_DISMISSED_KEY = "cling.matrix.dismissed";

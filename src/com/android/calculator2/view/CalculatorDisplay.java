@@ -52,7 +52,7 @@ public class CalculatorDisplay extends ViewSwitcher implements OnLongClickListen
     private static final char[] ACCEPTED_CHARS = "0123456789.+-*/\u2212\u00d7\u00f7()!%^"
             .toCharArray();
 
-    private static final int ANIM_DURATION = 400;
+    private static final int ANIM_DURATION = 40;
     private final List<String> mKeywords;
     TranslateAnimation inAnimUp;
     TranslateAnimation outAnimUp;
