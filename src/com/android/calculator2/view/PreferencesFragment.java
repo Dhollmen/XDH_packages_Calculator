@@ -161,7 +161,7 @@ public class PreferencesFragment extends PreferenceFragment {
         return (ListView) getView().findViewById(android.R.id.list);
     }
 
-    protected Context getContext() {
+    public Context getContext() {
         return getActivity();
     }
 

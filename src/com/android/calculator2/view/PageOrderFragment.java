@@ -78,7 +78,7 @@ public class PageOrderFragment extends ListFragment {
         populateList();
     }
 
-    private Context getContext() {
+    public Context getContext() {
         return getActivity();
     }
 
