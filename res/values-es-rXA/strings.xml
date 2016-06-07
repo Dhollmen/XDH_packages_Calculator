@@ -27,8 +27,8 @@
   <string name="digit7">7</string>
   <string name="digit8">8</string>
   <string name="digit9">9</string>
-  <string name="del">DESANICIAR</string>
-  <string name="clear">LLIMPIAR</string>
+  <string name="del">" C "</string>
+  <string name="clear">"CLR"</string>
   <string name="div">\u00f7</string>
   <string name="mul">\u00d7</string>
   <string name="plus">+</string>

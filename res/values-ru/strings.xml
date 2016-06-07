@@ -20,7 +20,7 @@
     <!-- If there is a syntax error in the user entered calculation, an error dialog will appear.  This is the title. -->
     <string name="error" msgid="9197457880925804499">Ошибка</string>
     <!-- Button name on screen to delete the last entered digit or operator -->
-    <string name="del" msgid="6248896117422989693">УДАЛИТЬ</string>
+    <string name="del" msgid="6248896117422989693">" C "</string>
     <!-- Button name on screen to clear the entire calculation field. [CHAR LIMIT=6] -->
     <string name="clear" msgid="8103610981407459768">CLR</string>
     <!-- Displayed on buttons on screen for the sin function. -->
