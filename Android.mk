@@ -13,7 +13,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
@@ -32,12 +31,9 @@ LOCAL_SDK_VERSION := current
 LOCAL_PACKAGE_NAME := Calculator
 
 include $(BUILD_PACKAGE)
-##################################################
+
 include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := libarity:libs/arity-2.1.6.jar ejml:libs/ejml-0.21.jar slider:libs/slider.jar gdk:libs/gdk.jar
 
 include $(BUILD_MULTI_PREBUILT)
-
-# Use the folloing include to make our test apk.
-include $(call all-makefiles-under,$(LOCAL_PATH))
