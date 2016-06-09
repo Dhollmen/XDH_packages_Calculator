@@ -48,7 +48,7 @@
                     android:layout_width="48dip"
                     android:layout_height="match_parent"
                     theme:src="@drawable/ic_menu_overflow"
-                    theme:themeBackground="@drawable/menu_bg"
+                    theme:themeBackground="@drawable/btn_function"
                     android:layout_marginLeft="8dip"
                     android:visibility="gone"
                     android:contentDescription="@null" />

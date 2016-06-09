@@ -19,7 +19,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="12dp">
+    android:padding="8dp">
 
     <com.xlythe.engine.theme.ThemedTextView android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
 
     <com.xlythe.engine.theme.ThemedTextView android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/display_text_size"
+        android:textSize="@dimen/small_display_text_size"
         theme:textColor="@color/history_result"
         android:gravity="right"
         android:id="@+id/historyResult" />

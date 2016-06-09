@@ -53,12 +53,12 @@
         <item name="android:lineSpacingMultiplier">1.1</item>
     </style>
 
-    <style name="Theme.Calculator" parent="android:Theme.Holo.NoActionBar">
+    <style name="Theme.Calculator" parent="android:Theme.Holo.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/background</item>
     </style>
 
-    <style name="Theme.Settings.Calculator" parent="@android:style/Theme.Holo">
-        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
+    <style name="Theme.Settings.Calculator" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.Light.ActionBar.Solid</item>
     </style>
 
     <style name="Theme.Calculator.ButtonStyle">
@@ -171,6 +171,7 @@
         <item name="android:paddingRight">8dp</item>
         <item name="android:paddingBottom">8dp</item>
         <item name="max_height">@dimen/max_display_height</item>
+        <item name="android:background">@drawable/display_holo</item>
     </style>
 
     <style name="Theme.Calculator.Display.Widget" />
@@ -180,7 +181,7 @@
     </style>
 
     <style name="Theme.Calculator.Clear">
-        <item name="themeBackground">@drawable/menu_bg</item>
+        <item name="themeBackground">@drawable/btn_function</item>
         <item name="android:textSize">@dimen/btn_clear_text_size</item>
         <item name="textColor">@color/text_color</item>
     </style>
