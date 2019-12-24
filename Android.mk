@@ -26,7 +26,8 @@ LOCAL_STATIC_JAVA_LIBRARIES += ejml slider gdk
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-LOCAL_SDK_VERSION := current
+#LOCAL_SDK_VERSION := current
+LOCAL_PRIVATE_PLATFORM_APIS := true
 
 LOCAL_PACKAGE_NAME := Calculator
 

@@ -38,6 +38,7 @@
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:layout_marginLeft="2.0dip"
                     maxDigits="@integer/max_digits">
 
                     <com.android.calculator2.view.ScrollableDisplay style="@style/Theme.Calculator.Display" />
@@ -47,9 +48,9 @@
 
                 <com.xlythe.engine.theme.ThemedImageButton android:id="@+id/overflow_menu"
                     android:layout_width="48dip"
-                    android:layout_height="match_parent"
+                    android:layout_height="fill_parent"
                     theme:src="@drawable/ic_menu_overflow"
-                    theme:themeBackground="@drawable/btn_function"
+                    theme:themeBackground="@drawable/btn_keyboard_key_del_holo"
                     android:layout_marginLeft="8dip"
                     android:visibility="gone"
                     android:contentDescription="@null" />
@@ -95,19 +96,19 @@
                     <!-- marginRight has to be 0 to catch border-touch -->
                     <com.android.calculator2.view.ColorButton android:id="@+id/clear"
                         android:text="@string/clear"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
                         android:layout_marginRight="0dp"
-                        android:textSize="15sp"
+                        android:textSize="16sp"
                         style="@style/Theme.Calculator.ButtonStyle.Del" />
 
                     <!-- marginRight has to be 0 to catch border-touch -->
                     <com.android.calculator2.view.ColorButton android:id="@+id/del"
                         android:text="@string/del"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
                         android:layout_marginRight="0dp"
-                        android:textSize="15sp"
+                        android:textSize="16sp"
                         style="@style/Theme.Calculator.ButtonStyle.Del" />
                 </FrameLayout>
             </LinearLayout>

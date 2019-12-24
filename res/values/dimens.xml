@@ -33,7 +33,7 @@
     <dimen name="small_display_text_size">20sp</dimen>
     <dimen name="min_display_height">100dp</dimen>
     <dimen name="max_display_height">200dp</dimen>
-    <dimen name="history_bar_height">25dp</dimen>
+    <dimen name="history_bar_height">0dp</dimen>
     <dimen name="matrix_edit_text_padding">17dp</dimen>
     <dimen name="button_hint_offset_x">20dp</dimen>
     <dimen name="button_hint_offset_y">20dp</dimen>
