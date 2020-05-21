@@ -51,7 +51,7 @@
                     android:layout_height="fill_parent"
                     theme:src="@drawable/ic_menu_overflow"
                     theme:themeBackground="@drawable/btn_keyboard_key_del_holo"
-                    android:layout_marginLeft="8dip"
+                    android:layout_marginLeft="2dip"
                     android:visibility="gone"
                     android:contentDescription="@null" />
             </com.xlythe.engine.theme.ThemedLinearLayout>
